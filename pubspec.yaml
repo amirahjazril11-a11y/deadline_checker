@@ -1,0 +1,30 @@
+name: deadline_checker
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.6.0
+  google_fonts: ^8.0.2 
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/deadline.png
+    - assets/images/relax.png
+    - assets/images/start.png
+    - assets/images/catch.png
+    - assets/sounds/phew.mp3
+    - assets/sounds/alert.mp3
+    - assets/sounds/warning.mp3
