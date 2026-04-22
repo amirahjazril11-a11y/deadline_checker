@@ -75,7 +75,9 @@ class _DeadlinePageState extends State<DeadlinePage> {
           children: <Widget>[
             Image.asset(
               imagePath,
-              width: 200
+              width: 300,
+              height: 300,
+              fit: BoxFit.cover,
             ),
             const SizedBox(height: 20),
 
