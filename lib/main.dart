@@ -14,6 +14,7 @@ class DeadlineCheckerApp extends StatelessWidget { //no changing state, so state
   Widget build(BuildContext context) {
     return MaterialApp( //main app container
       title: 'Deadline Checker',
+      debugShowCheckedModeBanner: false, //removes debug banner,
       theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal), useMaterial3: true),
       home: DeadlinePage(), //homepage
     );
